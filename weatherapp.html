@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="htmlpractice/bootstrapp/css/bootstrap.min.css"
+    />
+    <style>
+      span:nth-child(1) {
+        color: rgb(0, 191, 255);
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container text-center p-4" style="text-align: center">
+      <input
+        style="margin: auto"
+        class="form-control border border-info w-50"
+        type="text"
+        name=""
+        id="input"
+        placeholder="Search the weather of any country"
+        required
+      />
+      <br />
+      <button id="search" onclick="" class="btn btn-outline-info m-1">
+        search
+      </button>
+      <p id="loading"></p>
+      <p id="dsply"></p>
+      <p id="max">Max temp</p>
+      <p id="min">Min temp</p>
+      <p id="desc">Weather Desc.</p>
+    </div>
+
+    <script src="weatherapp.js"></script>
+  </body>
+</html>
